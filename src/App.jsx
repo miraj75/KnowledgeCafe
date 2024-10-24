@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header></Header>
-     <div className='flex flex-col-reverse  md:flex mx-4'>
+     <div className='flex flex-col-reverse md:flex-row mx-4'>
      <Blogs handleBookmarkbtn={handleBookmarkbtn} readTimeBtn={readTimeBtn} ></Blogs>
     <Bookmarks bookMarks={bookMarks} readTime={readTime}></Bookmarks>
      </div>
